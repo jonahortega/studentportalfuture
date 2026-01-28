@@ -1,0 +1,88 @@
+<svg width="220" height="100" viewBox="0 0 220 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- White background -->
+  <rect width="220" height="100" fill="white"/>
+  
+  <g transform="translate(25, 15)">
+    
+    <!-- Letter A -->
+    <!-- Left vertical stroke (black, thick, straight, rounded) -->
+    <path d="M3 70 L3 10" 
+          stroke="#000000" 
+          stroke-width="13" 
+          fill="none" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <!-- Right stroke of A (thick, curves inward at base) -->
+    <path d="M3 10 L26 10 L42 52" 
+          stroke="#000000" 
+          stroke-width="13" 
+          fill="none" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <!-- Blue wave-like element on lower right of A, extending toward U -->
+    <path d="M42 52 Q48 58 44 66 Q40 70 33 68" 
+          stroke="#4A90E2" 
+          stroke-width="10" 
+          fill="none" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <!-- Crossbar (subtle, implied) -->
+    <path d="M13 40 L30 40" 
+          stroke="#000000" 
+          stroke-width="8" 
+          fill="none" 
+          stroke-linecap="round"/>
+    
+    <!-- Letter U - flows from A's blue element -->
+    <!-- Left stroke flowing from A (black, connects to blue) -->
+    <path d="M33 68 Q40 72 45 75 L45 50 Q45 42 52 42 Q59 42 59 50 L59 10" 
+          stroke="#000000" 
+          stroke-width="13" 
+          fill="none" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <!-- Bottom curve of U (black) -->
+    <path d="M45 50 Q45 42 52 42 Q59 42 59 50" 
+          stroke="#000000" 
+          stroke-width="13" 
+          fill="none" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <!-- Right vertical stroke of U (vibrant red, thick, straight) -->
+    <path d="M59 10 L59 50" 
+          stroke="#E63946" 
+          stroke-width="13" 
+          fill="none" 
+          stroke-linecap="round"/>
+    
+    <!-- Letter P -->
+    <!-- Vertical stem (black, thick, straight) -->
+    <path d="M74 10 L74 70" 
+          stroke="#000000" 
+          stroke-width="13" 
+          fill="none" 
+          stroke-linecap="round"/>
+    
+    <!-- Loop of P (black, rounded) -->
+    <path d="M74 10 Q88 10 88 27 Q88 44 74 44" 
+          stroke="#000000" 
+          stroke-width="13" 
+          fill="none" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <!-- Light blue crescent in bottom right of P's inner curve -->
+    <path d="M81 27 Q85 32 81 37" 
+          stroke="#4A90E2" 
+          stroke-width="8" 
+          fill="none" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+  </g>
+</svg>

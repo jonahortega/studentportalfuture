@@ -18,7 +18,6 @@ const CompletedCoursesPage = () => {
 
   // Organize completed courses by category
   const organizeCoursesByCategory = () => {
-    const allCourses = [...availableCourses, ...completedCoursesData]
     const completedCourseCodes = new Set(completedCoursesList.map(c => c.code))
     
     const categories: Array<{

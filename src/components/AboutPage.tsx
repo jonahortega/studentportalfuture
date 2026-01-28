@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
 export default function AboutPage() {
-  const [openSection, setOpenSection] = useState<string | null>(null)
+  const [_openSection, _setOpenSection] = useState<string | null>(null)
 
   return (
     <div className="min-h-screen bg-white">

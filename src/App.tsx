@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import { useState, createContext, useContext } from 'react'
 import { UserProvider } from './context/UserContext'
-import LandingPage from './components/LandingPage'
 import AboutPage from './components/AboutPage'
 import AcademicsPage from './components/AcademicsPage'
 import AdmissionsPage from './components/AdmissionsPage'
